@@ -130,11 +130,20 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
+	.superscript {
+		font-size: 10pt;
+	}
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
+
+			.superscript {
+				font-size: 9pt;
+			}
+
 
 		}
 
@@ -142,6 +151,10 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+
+			.superscript {
+				font-size: 8pt;
 			}
 
 		}
@@ -152,6 +165,10 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.superscript {
+				font-size: 8pt;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -160,6 +177,9 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.superscript {
+				font-size: 8pt;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
@@ -168,6 +188,9 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.superscript {
+				font-size: 8pt;
+			}
 		}
 
 	a {
