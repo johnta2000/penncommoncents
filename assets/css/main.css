@@ -1,5 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 
 /*
 	Adapted from Solid State by HTML5 UP
@@ -124,9 +128,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Nunito", Helvetica, sans-serif;
 		font-size: 16.5pt;
-		font-weight: 300;
+		font-weight: 250;
 		line-height: 1.65;
 	}
 
@@ -3044,12 +3048,23 @@ input, select, textarea {
 			.features article .image {
 				border-radius: 5px 5px 0 0;
 				display: block;
+				position: relative;
+				width: calc(72.5% + 3.5em); /* image size */
+			}
+
+			/*
+
+			.features article .image {
+				border-radius: 5px 5px 0 0;
+				display: block;
 				margin-bottom: 1.75em;
 				margin-left: -1.75em;
 				margin-top: -1.75em;
 				position: relative;
-				width: calc(100% + 3.5em);
+				width: calc(75% + 3.5em); /* image size */
 			}
+
+			*/			
 
 				.features article .image img {
 					border-radius: 5px 5px 0 0;
