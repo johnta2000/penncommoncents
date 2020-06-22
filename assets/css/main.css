@@ -128,10 +128,18 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
+		font-family: "Raleway", Helvetica, sans-serif;
+		font-size: 16.5pt;
+		font-weight: 300;
+		line-height: 1.65;
+	}
+
+	.nunito-font {
+		color: #ffffff;
 		font-family: "Nunito", Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 250;
-		line-height: 1.65;
+		line-height: 1.65;	
 	}
 
 	.superscript {
